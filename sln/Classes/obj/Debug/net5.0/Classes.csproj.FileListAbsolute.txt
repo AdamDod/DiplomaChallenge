@@ -1,0 +1,12 @@
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\bin\Debug\net5.0\Classes.deps.json
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\bin\Debug\net5.0\Classes.dll
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\bin\Debug\net5.0\ref\Classes.dll
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\bin\Debug\net5.0\Classes.pdb
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.csproj.AssemblyReference.cache
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.AssemblyInfoInputs.cache
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.AssemblyInfo.cs
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.csproj.CoreCompileInputs.cache
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.dll
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\ref\Classes.dll
+C:\Users\adamd\Desktop\UNI2022\Coding Repos\diploma-project\sln\Classes\obj\Debug\net5.0\Classes.pdb

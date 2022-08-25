@@ -1,0 +1,58 @@
+<h1>Order Management Page</h1>
+<div class="container">
+  <h2>New Order</h2>
+  Customer:
+  <select [(ngModel)]="selectedCustomer">
+    <option  *ngFor="let customer of customers" [ngValue]="customer">{{customer.fullName}}</option>
+  </select>
+  Product:
+  <select [(ngModel)]="selectedProduct">
+    <option *ngFor="let product of products" [ngValue]="product">{{product.description}}</option>
+  </select>
+  Quantity or Product:
+  <input type="number" [(ngModel)]="selectedQty">
+  Shipping Mode:
+  <select [(ngModel)]="selectedShipMode">
+    <option value="Second Class">Second Class</option>
+    <option value="Standard Class">Standard Class</option>
+    <option value="First Class">First Class</option>
+    <option value="Overnight Express">Overnight Express</option>
+  </select>
+  <button (click)="addOrder()">Create new Order</button>
+</div>
+
+
+<div class="container">
+  <h2>Delete Order</h2>
+  <select [(ngModel)]="selectedOrderToDelete">
+    <option *ngFor="let order of orders" [ngValue]="order">{{order.prod.description}} X {{order.quantity}} - {{order.custID}}</option>
+  </select>
+  <button (click)="deleteOrder()">Delete Selected Order</button>
+</div>
+
+<div class="container" *ngIf="loaded">
+  <h2>Edit Order</h2>
+  existing orders
+  <select [(ngModel)]="selectedOrderToEdit" [value]="orders[0]" (change)="changedEdit()">
+    <option *ngFor="let order of orders" [ngValue]="order">{{order.prod.description}} X {{order.quantity}}</option>
+  </select>
+  <h3>Edit Details</h3>
+  Customer:
+  <select [(ngModel)]="editedOrder.custID">
+    <option  *ngFor="let customer of customers" [ngValue]="customer.custID">{{customer.fullName}} - {{customer.custID}}</option>
+  </select>
+  Product:
+  <select [(ngModel)]="editedOrder.prod">
+    <option *ngFor="let product of products" [ngValue]="product">{{product.description}}</option>
+  </select>
+  Quantity or Product:
+  <input type="number" [(ngModel)]="editedOrder.quantity">
+  Shipping Mode:
+  <select [(ngModel)]="editedOrder.shipMode">
+    <option value="Second Class">Second Class</option>
+    <option value="Standard Class">Standard Class</option>
+    <option value="First Class">First Class</option>
+    <option value="Overnight Express">Overnight Express</option>
+  </select>
+  <button (click)="editOrder()">Edit</button>
+</div>
